@@ -1,3 +1,4 @@
+""" Original dirty code source """
 import math
 
 print("********** CALCULETTE 2nd DEGRE **********")
