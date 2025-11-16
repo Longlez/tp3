@@ -22,7 +22,7 @@ class EquationSolver:
             return (delta, x, x)
 
         else:
-            racien_delta = math.sqrt(delta)
-            value_x1 = (-value_b + racien_delta) / (2 * value_a)
-            value_x2 = (-value_b - racien_delta) / (2 * value_a)
+            racine_delta = math.sqrt(delta)
+            value_x1 = (-value_b + racine_delta) / (2 * value_a)
+            value_x2 = (-value_b - racine_delta) / (2 * value_a)
             return (delta, value_x1, value_x2)
